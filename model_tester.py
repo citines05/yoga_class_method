@@ -1,8 +1,5 @@
 import os
-import cv2
 import numpy as np
-import mediapipe as mp
-import glob
 import tensorflow as tf
 from absl import logging
 import pathlib
@@ -64,10 +61,10 @@ def measure_prediction_latency(model, dataset):
     return elapsed_time, predictions
 
 # Load models
-model_transformer = tf.keras.models.load_model("kp_ds_aug_2_model_1_tranformer_cnn.keras",
+model_transformer = tf.keras.models.load_model("experiments/experiment_kp_ds_aug_2/kp_ds_aug_2_model_1_tranformer_cnn.keras",
                                                custom_objects={"TransformerEncoder": TransformerEncoder})
-model_lstm = tf.keras.models.load_model("baseline-cnn-lstm.keras")
-mobilenet = tf.keras.models.load_model("baseline-mobilenetv2.keras")
+model_lstm = tf.keras.models.load_model("baselines/baseline-cnn-lstm.keras")
+mobilenet = tf.keras.models.load_model("baselines/baseline-mobilenetv2.keras")
 
 ### Create dataset for keypoints
 test_ds_keypoints = tf.data.Dataset.list_files(str(dataset_path/'test/*/*.npy'), shuffle=False)
