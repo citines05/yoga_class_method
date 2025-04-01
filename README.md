@@ -8,7 +8,7 @@ Authors: Caio César Macedo Antunes, Juan Gabriel Colonna, Rafael Castilho Carva
 
 - **`dataset_gens`:** Contains the codes used to generate the keypoints datasets utilized in this project, all of them based on the Yoga-82 dataset ([Verma et al.](https://sites.google.com/view/yoga-82/home)). If you are not interested in recreating the datasets, you can download them [here](https://drive.google.com/drive/folders/1J22NMrp7-ASANnqbkdPJ8ay9WPHqV_VG?usp=sharing).
 - **`experiments`:** Contains the pipeline of `.ipynb` notebooks used in this project for training, testing, and validating the created neural network models. If you want to run the experiments, simply execute the notebooks.
-- **`dataset_comparision.txt`:** Contains a comparison of the Yoga-82 dataset before and after cleaning using MediaPipe. The reason for this cleaning is that the dataset contains many cartoonish images that would hinder keypoint extraction. Therefore, we used MediaPipe to clean the dataset.
+- **`dataset_comparision.txt`:** Contains a comparison of Yoga-82 dataset before and after cleaning using MediaPipe. The reason for this cleaning is that the dataset contains many cartoonish images that would hinder keypoint extraction. Therefore, we used MediaPipe to clean the dataset.
 - **`model_teste.py`:** The script that generates the file `prediction_latency.txt`, which contains a prediction latency comparison of our best model against state-of-the-art models ([MobileNetV2](https://paperswithcode.com/method/mobilenetv2) and [Swain et al.](https://www.mdpi.com/1999-4893/15/11/403)) trained on our dataset.
 
 ## Instructions to Recreate Each Dataset Used
