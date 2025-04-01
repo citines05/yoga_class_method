@@ -2,6 +2,8 @@
 
 Recognizing the growing importance of yoga for enhancing physical health and mental well-being, this project proposes a lightweight neural network method for the automatic recognition of yoga postures from images. By leveraging skeletal keypoints, our model achieves efficient and accurate posture classification. We evaluated our approach on the Yoga-82 dataset ([Verma et al.](https://sites.google.com/view/yoga-82/home)) using two data augmentation strategies: horizontal flipping of images and data balancing via random Gaussian noise addition combined with keypoint fusion. Our model attains an accuracy of 90.31\% with only 85,582 parameters for 82 distinct yoga postures, demonstrating competitive performance relative to more resource-intensive methods. This efficiency makes the approach particularly suitable for resource-constrained environments, such as smartphones, and paves the way for developing tutor applications that promote individual yoga practice and enhance overall well-being.
 
+Authors: Caio César Macedo Antunes, Juan Gabriel Colonna, Rafael Castilho Carvalho and Bernardo Bentes Gatto.
+
 ## Explanations
 
 - **`dataset_gens`:** Contains the codes used to generate the keypoints datasets utilized in this project, all of them based on the Yoga-82 dataset ([Verma et al.](https://sites.google.com/view/yoga-82/home)). If you are not interested in recreating the datasets, you can download them [here](https://drive.google.com/drive/folders/1J22NMrp7-ASANnqbkdPJ8ay9WPHqV_VG?usp=sharing).
