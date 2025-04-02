@@ -39,3 +39,7 @@ A brief description of each dataset and the steps to recreate them.
 - Based on the already cleaned and horizontally flipped augmented directory, execute the following scripts in order:
   1. `kp_ds_gen.py` (note: change the final directory name to `kp_ds_aug_balan_3`)
   2. `kp_data_aug.py`
+
+## Neural Network Architecture
+
+![image](NN_arch.png)
