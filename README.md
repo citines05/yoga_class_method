@@ -42,4 +42,4 @@ A brief description of each dataset and the steps to recreate them.
 
 ## Neural Network Architecture
 
-![image](NN_arch.png)
+![image](images/NN_arch.png)
