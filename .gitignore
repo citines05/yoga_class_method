@@ -1,1 +1,4 @@
-.gitignore
+plot.py
+experiments/experiment_kp_ds_aug_balan_3/exp.txt
+experiments/experiment_kp_ds_aug_2/exp.txt
+experiments/experiment_kp_ds_not_aug_1/exp.txt
