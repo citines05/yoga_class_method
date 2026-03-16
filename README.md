@@ -23,7 +23,7 @@ Our model outperforms MobileNetV2 by **+11.64%** in accuracy while using **27x f
 **Lightweight Method for Yoga Posture Recognition: Contributions to Well-Being and Quality of Life**  
 Caio C. M. Antunes, Rafael C. Carvalho, Bernardo B. Gatto, Juan G. Colonna  
 Institute of Computing – Federal University of Amazonas (UFAM)  
-📎 [Read the paper](https://doi.org/10.5753/sbcas.2025.6971) ← add link here
+📎 [Read the paper](https://doi.org/10.5753/sbcas.2025.6971)
 
 ---
 
@@ -66,7 +66,7 @@ Three dataset versions were evaluated:
 | `kp_ds_aug_2` | + Horizontal flip (doubles samples per class) |
 | `kp_ds_aug_balan_3` | + Gaussian noise & keypoint fusion for class balancing |
 
-📥 Download the datasets [here](https://drive.google.com/drive/folders/1J22NMrp7-ASANnqbkdPJ8ay9WPHqV_VG?usp=sharing) ← add link here  
+📥 Download the datasets [here](https://drive.google.com/drive/folders/1J22NMrp7-ASANnqbkdPJ8ay9WPHqV_VG?usp=sharing) 
 Original image dataset: [Yoga-82](https://sites.google.com/view/yoga-82/home) (Verma et al., 2020)
 
 ---
